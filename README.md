@@ -21,6 +21,7 @@ To access any of the cloud services, simply select the name from the Services me
 (Creating an IAM User can help you or maybe your team to access the project on the console without having to share the Root User credentials as every user created, gets a separate set of credentials assigned.)
 
 2]	Create an EC2 Instance next. Make the following changes while creating an Instance.
+
     a.	**Choose AMI**: Microsoft Windows Server 2022 Base (in Free Tier)
     b.	**Instance Type:** t2.micro
     c.	No change in Instance Details.
