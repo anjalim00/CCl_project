@@ -1,4 +1,4 @@
-# CCl_project
+# Deploying the project on AWS Cloud
 
 This project is focused on deploying an application successfully on the cloud environment by utilizing different cloud services. We have deployed an NLP application on AWS Cloud that summarizes text given as input in the text or file format. The following instructions can help you to deploy and access an application deployed on cloud.
 Services used are:
