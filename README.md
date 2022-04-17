@@ -9,10 +9,15 @@ Services used are:
 To access any of the cloud services, simply select the name from the Services menu in the AWS Management Console. Make sure to select services available only in Free Tier.
 
 1]	Create a New User via IAM service on the AWS Console. 
-    a.	Choose to create **Access key - Programmatic access** and give the name for user. 
+
+    a.	Choose to create **Access key - Programmatic access** and give the name for user.
+    
     b.	To Set Permissions select: **AdministratorAccess and AmazonDynamoDBFullAccess**. 
+    
     c.	Add tags if you wish to and create the user.
+    
     d.	**Download CSV File of the credentials of Access Key** when prompted as it is essential for future steps. Incase you forget to save the Secret Access Key then once user is created, select the User and in Security Credentials tab, generate new Access Key and save it.
+    
 (Creating an IAM User can help you or maybe your team to access the project on the console without having to share the Root User credentials as every user created, gets a separate set of credentials assigned.)
 
 2]	Create an EC2 Instance next. Make the following changes while creating an Instance.
