@@ -43,7 +43,7 @@ To access any of the cloud services, simply select the name from the Services me
     
     d.	In password section, click on Get Password.
     
-    e.	Here, Browse and select the Key Pair file we downloaded in the preious step in .pem format. Click on Decrypt Password. You will redirected to the previous page and will see the password.
+    e.	Here, Browse and select the Key Pair file we downloaded in the previous step in .pem format. Click on Decrypt Password. You will be redirected to the previous page and will see the password.
     
     f.	Open the .rdp file now. Click on Connect in the pop-up. You will be asked to enter password for Administrator user. Copy the Decrypted password from the console and past in the dialogue box and connect to the RDP client. Click on Yes if another pop-up appears.
     
@@ -55,13 +55,13 @@ To access any of the cloud services, simply select the name from the Services me
     
 4]	Connecting to DynamoDB. (This step can be performed independently, before creating EC2 instance.)
 
-    a.	Install AWS CLI on your system. To check its installation, open command prompt and type aws. If you get a message abut aws help and its usage then CLI is installed correctly.
+    a.	Install AWS CLI on your system. To check its installation, open command prompt and type aws. If you get a message about aws help and its usage then CLI is installed correctly.
     
     b.	Run the command: aws configure
     
     c.	Now for AWS Access Key ID, enter the Access Key ID mentioned in the .csv file we downloaded while creating a user in IAM. Also enter the Secret Access Key next and enter the region in which you have created your instance, example: us-west-1 OR us-east-1, etc.
     
-    d.	Click enter key when asked for Default output format or you can type json.
+    d.	Click enter key when asked for Default output format or you can type JSON.
     
     e.	Now you have configured the AWS connection required to connect to DynamoDB.
     
