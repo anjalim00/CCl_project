@@ -51,7 +51,7 @@ To access any of the cloud services, simply select the name from the Services me
     
     h.	RDP Connection is now established.
     
-    i.	To run this project, install Python in the instance and/or Xampp if you wish to check the SQL connectivity. You open Apache and MySQL connection on Xampp, create a database by the name of text_summarizer in phpMyAdmin and import the .sql file.
+    i.	To run this project, install Python in the instance and Xampp/MAMP to check the SQL connectivity. You open Apache and MySQL connection on Xampp, create a database by the name of text_summarizer in phpMyAdmin and import the .sql file.
     
 4]	Connecting to DynamoDB. (This step can be performed independently, before creating EC2 instance.)
 
